@@ -5,6 +5,7 @@ import java.awt.*;
 import java.util.Properties;
 import javax.mail.*;
 import javax.mail.internet.*;
+import io.github.cdimascio.dotenv.Dotenv;
 
 /**
  * @author diwash
@@ -18,10 +19,11 @@ public class EmailSenderGUI extends JFrame {
     private final JTextField subjectField;
     private final JTextArea messageArea;
     private JButton sendButton;
+    private static final Dotenv dotenv = Dotenv.load();
 
     // Your email config
-    private static final String FROM_EMAIL = "diwashlerhkop@gmail.com";
-    private static final String APP_PASSWORD = "mqqd kgwf kcpu hmrj";
+    private static final String FROM_EMAIL = dotenv.get("FROM_EMAIL");
+    private static final String APP_PASSWORD =  dotenv.get("APP_PASSWORD");
 
     public EmailSenderGUI() {
         setTitle("Email Sender");
