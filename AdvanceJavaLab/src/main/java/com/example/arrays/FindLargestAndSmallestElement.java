@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @author diwash
  * @date 8/29/25
- * @description This file contains...
+ * @description This file contains, A Java program to find the smallest and largest elements in an array entered by the user.
  */
 public class FindLargestAndSmallestElement {
     public static void main(String[] args) {

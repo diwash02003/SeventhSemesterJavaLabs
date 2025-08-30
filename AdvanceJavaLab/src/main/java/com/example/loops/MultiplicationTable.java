@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @author diwash
  * @date 8/29/25
- * @description This file contains...
+ * @description This file contains, A Java program to print the multiplication table of a given number using a for loop.
  */
 public class MultiplicationTable {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class MultiplicationTable {
         System.out.print("Enter any number for multiplication table:");
         int n = sc.nextInt();
 
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 5; i++) {
             System.out.println(n + " * " + i + " = " + (n * i));
         }
         sc.close();

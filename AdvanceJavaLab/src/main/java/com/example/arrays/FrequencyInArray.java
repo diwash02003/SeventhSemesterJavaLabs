@@ -10,11 +10,11 @@ import java.util.stream.Collectors;
 /**
  * @author diwash
  * @date 8/29/25
- * @description This file contains...
+ * @description This file contains, A Java program to count the frequency of each element in an array entered by the user.
  */
 public class FrequencyInArray {
     public static void main(String[] args) {
-//        using leda function
+//        using lemda function
 //        int[] arr = {1, 2, 2, 3, 1, 4, 2, 3, 5, 1};
 //        List<Integer> list = Arrays.stream(arr).boxed().toList();
 //        Map<Integer, Long> frequencyMap = list.stream()

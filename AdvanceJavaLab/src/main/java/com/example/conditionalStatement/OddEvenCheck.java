@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @author diwash
  * @date 8/29/25
- * @description This file contains...
+ * @description This file contains, A simple Java program to check if a number is odd or even using if-else.
  */
 public class OddEvenCheck {
     public static void main(String[] args) {
